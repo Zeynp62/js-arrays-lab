@@ -132,3 +132,17 @@ Exercise 14: Accessing within nested arrays*/
 num = numArrays[2][1]
 
 console.log('Exercise 14 result:', num)
+
+/*
+Exercise 15: Nested array sum
+*/
+let total = []
+c = 0
+for (let i = 0; i < numArrays.length; i++) {
+  for (let j = 0; j < numArrays[i].length; j++) {
+    total[c] = numArrays[i][j]
+    c++
+  }
+}
+
+console.log('Exercise 15 result:\n', total)
