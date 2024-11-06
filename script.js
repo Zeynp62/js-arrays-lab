@@ -123,5 +123,5 @@ const numArrays = [
   [45, 66],
   [7, 81, 90]
 ]
-
+const numList = numArrays[numArrays.length - 1]
 console.log('Exercise 13 result:', numList)
