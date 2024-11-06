@@ -83,3 +83,45 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 console.log('Exercise 11 result:', odds)
+
+/*
+Exercise 12: FizzBuzz with arrays
+*/
+let fizz = []
+let buzz = []
+let fizzbuzz = []
+let c1 = 0
+let c2 = 0
+let c3 = 0
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 3 == 0) {
+    fizz[c1] = nums[i]
+    c1++
+  }
+  if (nums[i] % 5 == 0) {
+    buzz[c2] = nums[i]
+    c2++
+  }
+  if (nums[i] % 3 == 0 && nums[i] % 5 == 0) {
+    fizzbuzz[c3] = nums[i]
+    c3++
+  }
+}
+
+console.log('Exercise 12 Results:')
+console.log('  fizz:', fizz)
+console.log('  buzz:', buzz)
+console.log('  fizzbuzz:', fizzbuzz)
+
+/*
+Exercise 13: Retrieve the Last Array
+*/
+
+const numArrays = [
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90]
+]
+
+console.log('Exercise 13 result:', numList)
