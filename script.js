@@ -8,13 +8,28 @@ console.log('Exercise 1 result:', foods)
 
 /*
 Exercise 2: Add strings to the array
-
-1) Add 'pizza' and 'cheeseburger' to the `foods` array. 
-
-Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
-
-Complete Exercise 2 in the space below:
 */
 foods.push('pizza', 'cheeseburger')
 
 console.log('Exercise 2 result:', foods)
+/*
+Exercise 3: Insert at the beginning
+*/
+
+foods.unshift('taco')
+console.log('Exercise 3 result:', foods)
+
+/*
+Exercise 4: Access an array element
+*/
+
+let favFood = foods[1]
+
+console.log('Exercise 4 result:', favFood)
+/*
+Exercise 5: Insert an element between two others
+*/
+
+foods.splice(2, 0, 'tofu')
+
+console.log('Exercise 5 result:', foods)
