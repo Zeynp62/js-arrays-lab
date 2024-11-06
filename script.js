@@ -56,17 +56,30 @@ const soyIdx = foods.indexOf('tofu')
 console.log('Exercise 8 result:', soyIdx)
 
 /*
-Exercise 9: Joining elements
-
-1) Use the `join()` method to concatenate the strings in the `foods` array, 
-   separated by ' -> '. 
-
-2) Assign the result to a variable called `allFoods`. 
-
-Note: The final result should log as:
-'taco -> sushi -> cupcake -> tofu -> cheeseburger'
-
-Complete Exercise 9 in the space below:
+Exercise 9: Joining elements:
 */
 const allFoods = foods.join(' -> ')
 console.log('Exercise 9 result:', allFoods)
+
+/*
+Exercise 10: Check for an element:
+*/
+
+const hasSoup = foods.includes('soup')
+console.log('Exercise 10 result:', hasSoup)
+
+/*
+Exercise 11: Odd numbers from an array
+*/
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+let odds = []
+let counter = 0
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 == 1) {
+    odds[counter] = nums[i]
+    counter++
+  }
+}
+
+console.log('Exercise 11 result:', odds)
