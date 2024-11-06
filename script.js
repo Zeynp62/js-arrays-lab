@@ -136,11 +136,13 @@ console.log('Exercise 14 result:', num)
 /*
 Exercise 15: Nested array sum
 */
-let total = []
+let totalTemp = []
+let total = 0
 c = 0
 for (let i = 0; i < numArrays.length; i++) {
   for (let j = 0; j < numArrays[i].length; j++) {
-    total[c] = numArrays[i][j]
+    totalTemp[c] = numArrays[i][j]
+    total += totalTemp[c]
     c++
   }
 }
