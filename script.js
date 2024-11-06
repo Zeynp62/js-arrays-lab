@@ -125,3 +125,10 @@ const numArrays = [
 ]
 const numList = numArrays[numArrays.length - 1]
 console.log('Exercise 13 result:', numList)
+
+/*
+Exercise 14: Accessing within nested arrays*/
+
+num = numArrays[2][1]
+
+console.log('Exercise 14 result:', num)
