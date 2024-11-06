@@ -33,3 +33,24 @@ Exercise 5: Insert an element between two others
 foods.splice(2, 0, 'tofu')
 
 console.log('Exercise 5 result:', foods)
+/*
+Exercise 6: Replace elements
+*/
+
+foods.splice(1, 1, 'sushi', 'cupcake')
+
+console.log('Exercise 6 result:', foods)
+/*
+Exercise 7: Using the `slice()` 
+*/
+
+const yummy = foods.slice(1, 3)
+
+console.log('Exercise 7 result:', yummy)
+
+/*
+Exercise 8: Finding an index
+*/
+const soyIdx = foods.indexOf('tofu')
+
+console.log('Exercise 8 result:', soyIdx)
